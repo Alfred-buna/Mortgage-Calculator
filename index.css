@@ -201,83 +201,17 @@ h2{
     border-radius: 10px;
  }
 
- /* Default styles for large screens */
+ /* Default styles for large screens 
  .container{
     width: 80%;
     margin: 40px auto;
- }
+ } */
 
- /* Small Smartphones (e.g iphone 5/SE) */
- @media (max-width: 320px) {
-    .container{
-        width: 100%;
-        margin: 10px auto;
-    }
- }
-
- /* Medium Smartphones (e.g iphone 8/12) */
- @media (max-width: 375px){
-    .container{ 
-        width: 100%;
-        margin: 10px auto;
-    }
- }
-
- /* Large Smartphones (e.g iphone 12 Pro Max) */
-  @media (max-width: 414px){
-    .container{ 
-        width: 100%;
-        margin: 10px auto;
-    }
- }
-
- /* Small Tablets (e.g ipad Mini) */
- @media (max-width: 600px){
-    .container{ 
-        width: 90%;
-        margin: 20px auto;
-    }
- }
-
- /* Medium Tablets (e.g ipad Air) */
- @media (max-width: 768px){
-    .container{ 
-        width: 90%;
-        margin: 20px auto;
-    }
- }
-
-/* Large Tablets (e.g ipad Pro) */
-@media (max-width: 1024px){
-    .container{ 
-        width: 80%;
-        margin: 30px auto;
-    }
- }
-
-/* Small Desktops (e.g 13" Macbook Air) */
-@media (max-width: 1280px){
-    .container{ 
-        width: 80%;
-        margin: 40px auto;
-    }
- }
-
- /* Medium Desktops (e.g 15" Macbook Pro) */
- @media (max-width: 1440px){
-    .container{ 
-        width: 80%;
-        margin: 40px auto;
-    }
- }
-
-/* Large Desktops (e.g 21" iMac) */
-@media (max-width: 1920px){
-    .container{ 
-        width: 80%;
-        margin: 40px auto;
-    }
- }
+@media only screen and (max-width: 600px) and (orientation: portrait){}
+ @media only screen and (max-width: 900px) and (orientation: landscape){}
+ @media only screen and (min-width: 601px) and (max-width :1200px) and (orientation: portrait){}
+ @media only screen and (min-width: 901px) and (max-width :1800px) and (orientation: landscape){}
+ @media only screen and (min-width: 1201px){}
 
 /* #mortgage-term::placeholder{
     color: white;
